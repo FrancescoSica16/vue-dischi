@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@fontsource/abeezee": "^4.5.0",
+    "@fontsource/aileron": "^4.5.0",
     "@fontsource/dangrek": "^4.5.1",
     "axios": "^0.21.4",
     "bootstrap": "^5.1.1",

@@ -1,24 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <Main msg="Welcome to Your Vue.js App"/>
+
+    <MusicGroup/>
+
   </div>
 </template>
 
 <script>
-import Main from './components/Main.vue'
+import MusicGroup from './components/MusicGroup.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Main,
+    MusicGroup,
   }
 }
 </script>
 
-<style lang="scss">
-@import "~bootstrap/scss/bootstrap";
-@import ".style/general.scss";
+<style  lang="scss">
+@import "style/general.scss";
+@import "style/variabiles.scss";
 
 
 </style>
